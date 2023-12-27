@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "../public/components/Navbar";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Service from "../pages/Service";
+import Home from "../public/pages/Home";
+import About from "../public/pages/About";
+import Contact from "../public/pages/Contact";
+import Service from "../public/pages/Service";
 function App() {
   return (
     <Router>

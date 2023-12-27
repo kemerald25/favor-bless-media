@@ -40,7 +40,7 @@ nav{
     font-size: 20px;
 }
 .banner{
-    background-image: url(img/land.jpg);
+    background-image: url(/public/img/land.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -111,7 +111,7 @@ nav{
     margin-top: 15px;
 }
 .about-img{
-    background-image: url(/img/land.jpg);
+    background-image: url(/public/img/land.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
