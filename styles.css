@@ -5,5 +5,32 @@ body{
     margin: 0;
 }
 nav{
-    font-family: 'Montserrat';
+    background-color: #000;
+}
+.navbar{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.allPages{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }

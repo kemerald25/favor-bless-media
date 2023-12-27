@@ -6,16 +6,16 @@ function Navbar() {
     return (
         <nav>
             <div className="navbar">
-                <h3>Favor Bless Media</h3>
+                <Link to="/" className="logo">Favor Bless Media</Link>
                 <ul className="nav-items">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" className="link">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" className="link">About</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" className="link">Contact</Link>
                     </li>
                 </ul>
             </div>
