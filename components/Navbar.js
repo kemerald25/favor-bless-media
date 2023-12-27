@@ -1,13 +1,22 @@
 import React from "react";
 import '../styles.css';
+import { Link } from 'react-router-dom';
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
         <nav>
             <div className="navbar">
                 <h3>Favor Bless Media</h3>
                 <ul className="nav-items">
-                    <li>Home</li>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
                 </ul>
             </div>
         </nav>
