@@ -18,7 +18,7 @@ function Home() {
             <div className="allPages">
                 <div className="about">
                     <div className="about-img">
-                        <img src="./img/land.jpg" />
+                        
                     </div>
                     <div className="about-info">
                         <h3>since 2019</h3>
@@ -27,13 +27,19 @@ function Home() {
                         </h1>
                         <div className="stroke"></div>
                         <p>We are a creative film and photo production company hungry for quality in aesthetics
-                            to create modern <br /> recognizable stuff we are working with a strong network of experienced 
-                            professionals. We set up teams to <br /> shape your identity, push your idea and manage the workflow
+                            to create modern recognizable stuff we are working with a strong network of experienced 
+                            professionals. We set up teams to shape your identity, push your idea and manage the workflow
                             from pre to post-production.
                         </p>
                     </div>
                 </div>
             </div>
+            <footer>
+                <div className="allPages">
+                    <small>&copy; Copyright Favor Bless Media 2023</small>
+                    <a href="https://devroyale.netlify.app" target="_blank">Designed by Dev Royale</a>
+                </div>
+            </footer>
         </div>
     )
 }

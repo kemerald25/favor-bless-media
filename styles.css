@@ -88,6 +88,9 @@ nav{
 }
 .about{
     margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .about-info h3{
     margin: 0;
@@ -97,7 +100,7 @@ nav{
 }
 .about-info h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     margin: 0;
     font-weight: 500;
 }
@@ -107,7 +110,37 @@ nav{
     width: 50px;
     margin-top: 15px;
 }
+.about-img{
+    background-image: url(/img/land.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
 .about-info p{
     color: #fff;
     font-size: 15px;
+    width: 600px;
+}
+footer{
+    max-width: 1440px;
+    height: 70px;
+    background-color: darkgray;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .allPages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+footer .allPages a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+small{
+    font-size: 20px;
 }
